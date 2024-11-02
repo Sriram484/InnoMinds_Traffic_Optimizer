@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    <!-- Define Vehicle Types -->
+    <vType id="car" accel="2.6" decel="4.5" maxSpeed="70" length="5.0" color="red"/>
+    <vType id="bus" accel="1.5" decel="4.0" maxSpeed="50" length="12.0" color="yellow"/>
+    <vType id="motorcycle" accel="3.0" decel="5.0" maxSpeed="100" length="2.5" color="blue"/>
+    <vType id="truck" accel="1.2" decel="3.0" maxSpeed="60" length="10.0" color="green"/>
+    <vType id="ambulance" accel="0.8" decel="4.5" length="17.0"  maxSpeed="70.0" color="white"/>
+
+    <!-- Define Trips from Allowed Starting Lanes to Different Ending Lanes -->
+    <trip id="car1" type="car" depart="0" from="A1B1" to="B1C1"/>
+    <trip id="ambulance1" type="ambulance" depart="3" from="B0B1" to="C1D1"/>
+    <trip id="car2" type="car" depart="2" from="B0B1" to="C1D1"/>
+    <trip id="car3" type="car" depart="4" from="C0C1" to="B1A1"/>
+    <trip id="car4" type="car" depart="6" from="D1C1" to="B1B2"/>
+    <trip id="car5" type="car" depart="8" from="B2B1" to="A1B1"/>
+    <trip id="moto1" type="motorcycle" depart="10" from="B0B1" to="C1D1"/>
+    <trip id="trip3" type="motorcycle" depart="10" from="B2B1" to="C1C0"/>
+    <trip id="car6" type="car" depart="30" from="A1B1" to="D1C1"/>
+    <trip id="car7" type="car" depart="32" from="B0B1" to="B1C1"/>
+    <trip id="car8" type="car" depart="34" from="C2C1" to="D1C1"/>
+    <trip id="car9" type="car" depart="36" from="C0C1" to="A1B1"/>
+    <trip id="car10" type="car" depart="38" from="D1C1" to="C2C1"/>
+    <trip id="moto2" type="motorcycle" depart="12" from="C0C1" to="A1B1"/>
+    <trip id="moto3" type="motorcycle" depart="14" from="A1B1" to="B1C1"/>
+    <trip id="car11" type="car" depart="40" from="A1B1" to="C1D1"/>
+    <trip id="car12" type="car" depart="42" from="B2B1" to="C2C1"/>
+    <trip id="car13" type="car" depart="44" from="C0C1" to="B1A1"/>
+    <trip id="car14" type="car" depart="46" from="B1C1" to="C1D1"/>
+    <trip id="car15" type="car" depart="48" from="D1C1" to="A1B1"/>
+    <trip id="moto4" type="motorcycle" depart="16" from="D1C1" to="C1B1"/>
+    <trip id="moto5" type="motorcycle" depart="18" from="B2B1" to="C1D1"/>
+    <trip id="bus1" type="bus" depart="20" from="A1B1" to="C1B1"/>
+    <trip id="bus2" type="bus" depart="22" from="C2C1" to="B1A1"/>
+    <trip id="bus3" type="bus" depart="24" from="B0B1" to="C1D1"/>
+    <trip id="bus4" type="bus" depart="26" from="D1C1" to="C1B1"/>
+    <trip id="bus5" type="bus" depart="28" from="C0C1" to="B1A1"/>
+    <trip id="moto6" type="motorcycle" depart="60" from="B2B1" to="C1D1"/>
+    <trip id="moto7" type="motorcycle" depart="62" from="A1B1" to="C1B1"/>
+    <trip id="moto8" type="motorcycle" depart="64" from="C0C1" to="D1C1"/>
+    <trip id="moto9" type="motorcycle" depart="66" from="B0B1" to="B1C1"/>
+    <trip id="moto10" type="motorcycle" depart="68" from="C2C1" to="B1A1"/>
+    <trip id="car16" type="car" depart="50" from="B0B1" to="C1B1"/>
+    <trip id="car17" type="car" depart="52" from="C2C1" to="B1A1"/>
+    <trip id="car18" type="car" depart="54" from="A1B1" to="D1C1"/>
+    <trip id="car19" type="car" depart="56" from="D1C1" to="B2B1"/>
+    <trip id="car20" type="car" depart="58" from="C1D1" to="A1B1"/>
+    <trip id="moto11" type="motorcycle" depart="70" from="A1B1" to="D1C1"/>
+    <trip id="moto12" type="motorcycle" depart="72" from="B1C1" to="C2C1"/>
+    <trip id="moto13" type="motorcycle" depart="74" from="D1C1" to="B2B1"/>
+    <trip id="moto14" type="motorcycle" depart="76" from="C0C1" to="A1B1"/>
+    <trip id="moto15" type="motorcycle" depart="78" from="B0B1" to="C1D1"/>
+    <trip id="bus6" type="bus" depart="80" from="C2C1" to="D1C1"/>
+    <trip id="bus7" type="bus" depart="82" from="A1B1" to="B2B1"/>
+    <trip id="bus8" type="bus" depart="84" from="B0B1" to="C1B1"/>
+    <trip id="bus9" type="bus" depart="86" from="D1C1" to="A1B1"/>
+    <trip id="bus10" type="bus" depart="88" from="B2B1" to="C2C1"/>
+    <trip id="car21" type="car" depart="100" from="A1B1" to="C1B1"/>
+    <trip id="car22" type="car" depart="102" from="B2B1" to="C2C1"/>
+    <trip id="car23" type="car" depart="104" from="C0C1" to="A1B1"/>
+    <trip id="car24" type="car" depart="106" from="B0B1" to="C1D1"/>
+    <trip id="car25" type="car" depart="108" from="C2C1" to="B1A1"/>
+    <trip id="bus11" type="bus" depart="90" from="C1D1" to="B0B1"/>
+    <trip id="bus12" type="bus" depart="92" from="C0C1" to="A1B1"/>
+    <trip id="bus13" type="bus" depart="94" from="A1B1" to="D1C1"/>
+    <trip id="bus14" type="bus" depart="96" from="B2B1" to="C1D1"/>
+    <trip id="bus15" type="bus" depart="98" from="C1B1" to="A1B1"/>
+    <trip id="moto16" type="motorcycle" depart="120" from="B2B1" to="A1B1"/>
+    <trip id="moto17" type="motorcycle" depart="122" from="C1B1" to="B1C1"/>
+    <trip id="moto18" type="motorcycle" depart="124" from="D1C1" to="B2B1"/>
+    <trip id="moto19" type="motorcycle" depart="126" from="C2C1" to="A1B1"/>
+    <trip id="moto20" type="motorcycle" depart="128" from="B1C1" to="C1D1"/>
+</routes>

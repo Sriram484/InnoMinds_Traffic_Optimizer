@@ -1,0 +1,25 @@
+<routes>
+    <!-- Vehicle Types -->
+    <vType id="car" accel="0.1" decel="0.2" maxSpeed="1" length="5.0" color="red"/>
+    <vType id="ambulance" accel="0.1" decel="0.2" maxSpeed="1.5" length="7.0" color="white"/>
+    <vType id="bus" accel="0.1" decel="0.2" maxSpeed="1.2" length="12.0" color="blue"/>
+    <vType id="truck" accel="0.1" decel="0.2" maxSpeed="1.3" length="10.0" color="green"/>
+
+    <!-- Trips -->
+    <trip id="car1" type="car" depart="0" from="A1B1" to="C1D1"/>
+    <trip id="amu1" type="ambulance" depart="0" from="A1B1" to="C1D1"/>
+    <trip id="amu2" type="ambulance" depart="0" from="D1C1" to="B1A1"/>
+    <trip id="amu3" type="ambulance" depart="70" from="B2B1" to="C1C0"/>
+    <trip id="car2" type="car" depart="0" from="C1C0" to="B1B0"/>
+
+    <!-- Additional Trips -->
+    <trip id="car3" type="car" depart="30" from="A1B1" to="C1C2"/>
+    <trip id="bus1" type="bus" depart="50" from="C2C1" to="B1B2"/>
+    <trip id="truck1" type="truck" depart="60" from="D1C1" to="B1A1"/>
+    <trip id="car4" type="car" depart="70" from="B2B1" to="C1D1"/>
+    <trip id="car5" type="car" depart="110" from="D1C1" to="B1B2"/>
+    <trip id="bus2" type="bus" depart="120" from="A1B1" to="B1A1"/>
+    <trip id="truck2" type="truck" depart="130" from="B2B1" to="C1D1"/>
+    <trip id="car6" type="car" depart="140" from="B0B1" to="C1C2"/>
+    <trip id="car7" type="car" depart="150" from="C0C1" to="B1B0"/>
+</routes>

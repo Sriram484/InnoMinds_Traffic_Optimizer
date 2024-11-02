@@ -1,0 +1,11 @@
+<additional>
+    <!-- Traffic Light Logic -->
+    <tlLogic id="0" type="static" programID="1" offset="0">
+        <!-- Define phases of the traffic light -->
+        <phase duration="31" state="GrGr"/>
+        <phase duration="6" state="yryr"/>
+        <phase duration="31" state="rGrG"/>
+        <phase duration="6" state="ryry"/>
+    </tlLogic>
+
+</additional>
